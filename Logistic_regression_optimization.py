@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+
 """
 Linear regression and cost function optimization
 """
@@ -7,10 +7,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 #set the path below to the correct directory.
 dir="set The path to the correct directory "
-
-
-
-
 x=np.loadtxt(dir+"ex2x.dat")
 y=np.loadtxt(dir+"ex2y.dat")
 x0=np.ones(len(x))
